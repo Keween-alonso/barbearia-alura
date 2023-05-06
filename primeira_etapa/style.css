@@ -98,6 +98,7 @@ footer {
 
 form{
 	margin: 40px 0;
+	margin-left: 2em;
 }
 
 form label, form  legend{
@@ -298,7 +299,7 @@ td, th{
 		margin-left: 1em;
 	}
 
-	/*Porte da página de contato*/
+	/*Porte da página de produto*/
 
 	.produtos{
 		width: 100%;
@@ -310,5 +311,15 @@ td, th{
 		width: 80%;
 		display: block;
 		margin-bottom: 2em;
+	}
+
+	/*Porte da pagina de contato*/
+
+	main table{
+		margin: 1em auto;
+	}	
+
+	td, th{
+		padding: 16px 30px;
 	}
 }
