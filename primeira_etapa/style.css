@@ -265,4 +265,26 @@ td, th{
 	.lista-beneficios, .imgbeneficios{
 		width: 100%;
 	}
+
+	.conteudo-beneficios{
+		text-align: center;
+	}
+
+	.conteudo-beneficios ul{
+		margin-left: 1em;
+		text-align: left;
+	}
+
+	.imgbeneficios{
+		margin-top: 1em;
+		width: 75%;
+	}
+
+	.video{
+		width: 80%;
+	}
+
+	.utensilios{
+		margin-left: 1em;
+	}
 }
