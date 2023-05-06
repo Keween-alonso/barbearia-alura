@@ -94,6 +94,8 @@ footer {
 	margin-top: 20px;
 }
 
+/*CSS da página de contato*/
+
 form{
 	margin: 40px 0;
 }
@@ -248,6 +250,8 @@ td, th{
 	margin: 2em auto;
 }
 
+/*Porte do site para dispositivos moveis*/
+
 @media screen and (max-width:480px){
 	body{
 		width: 100%;
@@ -292,5 +296,19 @@ td, th{
 
 	.utensilios{
 		margin-left: 1em;
+	}
+
+	/*Porte da página de contato*/
+
+	.produtos{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.produtos li{
+		margin: 0 auto;
+		width: 80%;
+		display: block;
+		margin-bottom: 2em;
 	}
 }
