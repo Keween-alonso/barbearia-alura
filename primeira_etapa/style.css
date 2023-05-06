@@ -249,6 +249,12 @@ td, th{
 }
 
 @media screen and (max-width:480px){
+	body{
+		width: 100%;
+		width: -moz-available;
+		width: -webkit-fill-available;
+		width: fill-available;
+	}
 	.caixa, .principal, .conteudo-beneficios, .map-content, .video{
 		width: auto;
 	}
