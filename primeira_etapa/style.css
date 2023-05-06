@@ -119,6 +119,7 @@ form label, form  legend{
 }
 
 .enviar{
+	margin-left: 110px;
 	width: 40%;
 	padding: 15px 0;
 	font-size:18px;
