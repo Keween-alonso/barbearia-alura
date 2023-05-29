@@ -254,7 +254,7 @@ td, th{
 
 /*Porte do site para dispositivos moveis*/
 
-@media screen and (max-width:480px){
+@media screen and (max-width:500px){
 	body{
 		width: 100%;
 		width: -moz-available;
@@ -263,6 +263,11 @@ td, th{
 	}
 	.caixa, .principal, .conteudo-beneficios, .map-content, .video{
 		width: auto;
+	}
+
+	.map-content iframe{
+		display: block;
+		margin: 0 auto;
 	}
 
 	h1{
