@@ -207,6 +207,11 @@ td, th{
 	text-align: center;
 }
 
+.map-content iframe{
+	display: block;
+	margin: 0 auto;
+}
+
 .beneficios{
 	padding: 3em 0;
 	background: #888888;
